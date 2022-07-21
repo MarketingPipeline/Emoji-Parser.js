@@ -12,6 +12,7 @@ jobs:
       with:
         # Define the folder or file to download
         repo: https://github.com/MarketingPip/Emoji-Parser.git
+        overwrite: true
 
      # Commit the updates
     - name: Commit and Push Downloaded Files 
