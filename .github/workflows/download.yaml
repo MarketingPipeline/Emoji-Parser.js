@@ -13,6 +13,6 @@ jobs:
      # Commit the updates
     - name: Commit and Push Downloaded Files 
       run: |
-         git mv trunks* /home/runner/work/Emoji-Parser/Emoji-Parser
+         git mv trunks* /home/runner/work/Emoji-Parser/Emoji-Parser/.
          git add * 
          git commit -m "Folders moved out of webapp directory :-)"
