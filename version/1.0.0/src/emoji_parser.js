@@ -37,3 +37,21 @@ replaceTextNodes(document.body);
 
 
 window.addEventListener("load", EmojiParser());
+
+MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+
+var observer = new MutationObserver(function(mutations, observer) {
+    // fired when a mutation occurs
+  EmojiParser()
+    // ...
+});
+
+// define what element should be observed by the observer
+// and what types of mutations trigger the callback
+observer.observe(document.body, {
+  subtree: true,
+  attributes: true,
+  childList: true,
+  characterData: true
+  //...
+});
