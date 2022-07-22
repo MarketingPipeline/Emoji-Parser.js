@@ -58,7 +58,9 @@ then you are done! Emojis will now be parsed on that page!
 
 ## Contributing <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors"> ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template) </a>
 
-Want to improve this template? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome repo template!
+Want to improve this project? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project.
+
+Be sure to also look at the [to-do](.github/TO-DO.md) list if you're looking for a job that needs done!
 
 See also the list of
 [contributors](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors) who
