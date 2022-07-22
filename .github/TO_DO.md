@@ -8,7 +8,7 @@
 - [ ] Parse changes in text area(s) & anything else missed. 
 - [ ] Add other emoji options, GitHub emoji links etc. Some useful ones can be found here [jmadler/emoji-picker: Add a slick emoji selector to input fields and textareas on your website.](https://github.com/jmadler/emoji-picker)
 - [ ] Create option to parse certain query, or tag if wanted.
-
+- [ ] Add custom parsing value option (set your own regex match etc)  
 
 #### Medium
 
