@@ -42,7 +42,7 @@ Just like GitHub uses emoji's in Markdown - emoji's are parsed in your whole bod
 
 ### How to install
 
-Place the script in your HTML document like so 
+Place this script at the BOTTOM of your HTML document 
 
 ```html
     <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Emoji-Parser/version/1.0.0/dist/emoji_parser.min.js"></script> 
