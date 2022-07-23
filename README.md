@@ -45,7 +45,7 @@ Just like GitHub uses emoji's in Markdown - emoji's are parsed in your whole bod
 Place the script in your HTML document like so 
 
 ```html
-    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag-GitHub.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Emoji-Parser/version/1.0.0/dist/emoji_parser.min.js"></script> 
 ```
 	
 then you are done! Emojis will now be parsed on that page!
