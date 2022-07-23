@@ -49,9 +49,9 @@ var observer = new MutationObserver(function(mutations, observer) {
 // define what element should be observed by the observer
 // and what types of mutations trigger the callback
 observer.observe(document.body, {
-  subtree: true,
-  attributes: true,
-  childList: true,
-  characterData: true
+//  subtree: true,
+  attributes: true
+ // childList: true,
+  // characterData: true
   //...
 });
