@@ -18,3 +18,16 @@
 #### Low
 
 - [ ] Create some basic emoji menu pickers
+
+
+----
+
+##### Resources
+
+[missive/emoji-mart: 🏪 One component to pick them all](https://github.com/missive/emoji-mart)
+
+[muan/emojilib: Emoji keyword library.](https://github.com/muan/emojilib)
+
+[omnidan/node-emoji: simple emoji support for node.js projects](https://github.com/omnidan/node-emoji)
+
+[nolanlawson/emoji-picker-element: A lightweight emoji picker for the modern web](https://github.com/nolanlawson/emoji-picker-element)
