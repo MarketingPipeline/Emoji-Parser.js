@@ -1,4 +1,4 @@
-# Awesome-Repo-Template [![Awesome](https://awesome.re/badge.svg)](https://github.com/MarketingPipeline/Awesome-Repo-Template/)
+# Emoji-Parser 🔎
 
 <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/">
 <img height=350 alt="Repo Banner - Awesome Repo Template" src="https://capsule-render.vercel.app/api?type=waving&color=c4a2bd&height=300&section=header&text=Emoji Parser 👍&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Easily add emoji support to your website! 😋 🎉😍&descAlignY=60&descAlign=50"></img></a>
@@ -34,18 +34,19 @@
 
 Just like GitHub uses emoji's in Markdown - emoji's are parsed in your whole body the same! 
 
-   ''' html
-   :yum: 
-   '''
+
+```html
+   :yum:
+```
+
 
 ### How to install
 
 Place the script in your HTML document like so 
 
-
-               hh
-	       
-	       
+```html
+    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag-GitHub.js"></script> 
+```
 	
 then you are done! Emojis will now be parsed on that page!
 
@@ -60,7 +61,7 @@ then you are done! Emojis will now be parsed on that page!
 
 Want to improve this project? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project.
 
-Be sure to also look at the [to-do](.github/TO-DO.md) list if you're looking for a job that needs done!
+Be sure to also look at the [to-do](.github/TO_DO.md) list if you're looking for a job that needs done!
 
 See also the list of
 [contributors](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors) who
