@@ -70,6 +70,6 @@ participate in this project.
 
 ## License <a href="LICENSE"> ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Emoji-Parser) </a>
 
-This project is licensed under the MIT License - see the
+This project is licensed under the GPL-3.0 License - see the
 [LICENSE.md](https://github.com/MarketingPipeline/Emoji-Parser/blob/main/LICENSE) file for
 details.
