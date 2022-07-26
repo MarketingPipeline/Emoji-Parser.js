@@ -21,6 +21,7 @@
 ## Features:
 
 - Use's the same style GitHub does! 
+- TON's of alternative names! **(for easy user usage)**
 - Lightweight
 - Open Source!
 
