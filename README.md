@@ -33,7 +33,7 @@
 
 ### How to use
 
-Just like GitHub uses emoji's in Markdown - emoji's are parsed in your whole body the same! 
+Just like how GitHub uses emoji's in Markdown - emoji's are parsed in your whole body the same! 
 
 
 ```html
