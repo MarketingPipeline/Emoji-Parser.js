@@ -1,9 +1,8 @@
 ///// TO-DO's 
 // - if Unicode is loaded (check if Emoji Support) if not supported replace all matches with unicode then load Twemoji (twitter emoji parser) which replaces unicode with images
 // - if emoji-s are fetched / replace key names with fetched values
-// - import unicode by default 
+// - import unicode by default (G-Emojis with attributes)
 // - add import for regular
-// - add G-Emoji Type
 
 class EmojiParser {
   constructor() {
