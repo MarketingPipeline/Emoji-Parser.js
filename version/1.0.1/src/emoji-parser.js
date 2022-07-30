@@ -1,3 +1,9 @@
+///// TO-DO's 
+// - if Unicode is loaded (check if Emoji Support) if not supported replace all matches with unicode then load Twemoji (twitter emoji parser) which replaces unicode with images
+// - if emoji-s are fetched / replace key names with fetched values
+// - import unicode by default 
+// - add import for regular
+
 class EmojiParser {
   constructor() {
     // JSON list to hold Emoji's 
@@ -13,11 +19,12 @@ class EmojiParser {
       this.defaultMessage = type + " Emoji Parser Loaded"
       
       if (type="Regular"){
-        // load regular emoji JSON data
+        // import regular emoji JSON data
       }
       
        if (type="GitHub"){
         // Fetch GitHub emoji JSON data
+         emojiParser.fetchEmojiData("https://api.github.com/emojis")
       }
       
     } else {
@@ -26,14 +33,14 @@ class EmojiParser {
         this.defaultMessage = "Error: Parser Type Not Found - Loading Unicode Emoji's"
       }
       
-      // Default to unicode emoji's if no type chosen (Load Unicode JSON)
+      // Default to unicode emoji's if no type chosen (import Unicode JSON)
       
     }
   }
   
   
   
-  // Function for user to add own Emoji JSON data
+  // Function to to add own Emoji JSON data from URL 
   
    ////// TO-DO : if emoji-s are fetched / replace key names with fetched values. 
   fetchEmojiData(data){
@@ -43,16 +50,12 @@ class EmojiParser {
             })
             .then(function (emojis) {
                 for(const emoji in emojis){
-               // Add Each Emoji Name + Key Value
                   
-                  
-                   emojiParser.emoteList[emoji] = emojis[emoji] 
-                  
-                  
-                  
-                  // console.log(emoji)
+               // Add Each Emoji Name + Key Value to JSON List
+                  emojiParser.emoteList[emoji] = emojis[emoji]
                 };
-emojiParser.convertEmojisInHTML();
+                  // Then Convert Matches
+                 emojiParser.convertEmojisInHTML();
             })
             .catch(function (error) {
                 console.log('Error fetching Emoji Data: ' + error.message);
