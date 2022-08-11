@@ -1,7 +1,7 @@
 # Emoji-Parser.js 🔎
 
 <a href="https://github.com/MarketingPipeline/Emoji-Parser/">
-<img height=350 alt="Repo Banner - Awesome Repo Template" src="https://capsule-render.vercel.app/api?type=waving&color=c4a2bd&height=300&section=header&text=Emoji-Parser.js 👍&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Easily add emoji support to your website! 😋 🎉😍&descAlignY=60&descAlign=50"></img></a>
+<img height=350 alt="Repo Banner - Awesome Repo Template" src="https://capsule-render.vercel.app/api?type=waving&color=c4a2bd&height=300&section=header&text=Emoji-Parser.js%20👍&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Easily%20add%20emoji%20support%20to%20your%20website!%20😋%20🎉😍&descAlignY=60&descAlign=50"></img></a>
 
 <p align="center">
   <b>A emoji parser to easily add emoji support to your website</b>
